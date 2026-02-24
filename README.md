@@ -57,5 +57,5 @@ Through this project, I practiced:
 ---
 
 ## 👩‍💻 Author
-Smruthi  
-BTech CSE Student
+Smrit  
+Engineering Student
