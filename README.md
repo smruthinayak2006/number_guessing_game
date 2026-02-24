@@ -14,6 +14,7 @@ This project was created to practice core programming fundamentals and basic Git
 - User input handling
 - Conditional logic (if-elif-else)
 - Looping until correct guess
+- Attempt counter
 - Basic Git version control
 
 ---
@@ -50,7 +51,6 @@ Through this project, I practiced:
 
 ## 🔄 Upcoming Improvements
 - Input validation (handling non-numeric input)
-- Attempt counter
 - Improved user messages
 - Optional difficulty levels
 
