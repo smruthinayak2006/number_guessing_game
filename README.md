@@ -1,14 +1,12 @@
 # 🎯 Number Guessing Game (Python)
 
 ## 📌 Overview
-This is a command-line Number Guessing Game built using Python.
-
-This is a Number Guessing Game built using Python, available in both Command-Line (CLI) and Graphical User Interface (GUI) versions.
+A Python Number Guessing Game available in both CLI and GUI versions, featuring difficulty levels, intelligent hints, scoring, and a modern CustomTkinter interface.
 
 The GUI version is built using CustomTkinter and provides a modern, interactive experience.
 The program generates a random number within a range based on the selected difficulty level. The user must guess the correct number within limited attempts. The game provides intelligent feedback such as "Higher", "Lower", and proximity hints like "Close" or "Very Close".
 
-This project was created to practice core programming fundamentals and basic Git workflow.
+This project was created to practice Python programming, GUI development, and version control using Git.
 
 ---
 
@@ -29,56 +27,57 @@ This project was created to practice core programming fundamentals and basic Git
 - Higher/Lower hints
 
 ### GUI Version
-- Modern dark-themed interface (CustomTkinter)
-- Difficulty levels (Easy, Medium, Hard)
-- Real-time feedback with colors
+- Modern dark-themed interface
+- Real-time colored feedback
 - Attempt tracking display
 - Restart game option
-- Input validation
+- Auto-clearing input
+- Game-state controls
 
 ---
 
-![alt text](screenshot.png)
+## 📸 GUI Preview
 
-## 🛠 Tech Used
+![Number Guessing Game GUI](assets/screenshot.png)
+
+## 🛠 Tech Stack
 - Python 3
 - CustomTkinter (GUI)
 - Git
 - GitHub
 
 ---
+## 📂 Project Structure
 
-### 🧠 Learning Goals
-
-Through this project, I practiced:
-<<<<<<< HEAD
-- Writing modular and structured Python code
-- Using loops and conditionals effectively
-- Handling user input safely (error handling)
-- Designing simple game logic
-- Managing a project with Git (add, commit, push)
+```bash
+number_guessing_game/
+│
+├── main.py
+├── gui_game.py
+├── README.md
+└── assets/
+    └── screenshot.png
+```
 
 ---
 
-## 🔄 Version History
-- V1: Basic number guessing (Higher/Lower, single game)
-- V2: Added difficulty levels, input validation, scoring system, hints, and replay feature
-=======
+## ▶️ How to Run
 
-- Writing modular and structured Python code
-- Using loops, conditionals, and game-state logic effectively
-- Handling user input safely with validation and error handling
-- Designing interactive game logic with scoring and difficulty systems
-- Building desktop GUI applications using :contentReference[oaicite:0]{index=0}
-- Managing project versions using :contentReference[oaicite:1]{index=1} and :contentReference[oaicite:2]{index=2}
-- Debugging real development issues (repo setup, imports, UI integration)
-- Improving user experience through interface design and feedback systems
+CLI Version:
+```bash
+python main.py
+```
+
+GUI Version:
+```bash
+python gui_game.py
+```
 ---
 
 ## 🔄 Version History
 
-### V1 — CLI Prototype
-- Basic number guessing game (1–100)
+### V1 — Basic CLI Prototype
+- Random number guessing game
 - Higher/Lower hints
 - Attempt counter
 - Single-round gameplay
@@ -87,36 +86,43 @@ Through this project, I practiced:
 
 ### V2 — Enhanced CLI Game
 Added:
-- Difficulty levels (Easy / Medium / Hard)
-- Input validation and error handling
+- Difficulty levels
+- Input validation
+- Smart proximity hints
 - Scoring system
-- Smarter hints
-- Replay feature
+- Replay support
 
 ---
 
-### V3 — GUI Upgrade
-Major upgrade from CLI to desktop app using :contentReference[oaicite:3]{index=3}
+### V3 — GUI Upgrade & Project Polish
+Major upgrade from CLI to GUI using CustomTkinter.
 
 Added:
-- Modern dark-mode interface
-- Difficulty selection UI
-- Color-based feedback messages
-- Restart button
+- Modern dark-themed graphical interface
+- Difficulty selector
+- Real-time colored feedback
+- Attempts tracking
+- Restart game support
 - Auto-clearing input field
-- Input disabled before game start
-- Improved layout and centered window design
+- Game-state controls
+- Improved UX and layout polish
+- Screenshot documentation
+- README and GitHub project improvements
 
 ---
 
-### V4 — Project Polish & Documentation
-Added:
-- GitHub project cleanup
-- Improved README structure
-- Screenshots section
-- Feature documentation for CLI + GUI versions
-- Repository organized as a portfolio project
+## 🧠 Learning Goals
 
+Through this project, I practiced:
+
+- Writing modular and structured Python code
+- Using loops, conditionals, and game-state logic
+- Handling user input safely with validation
+- Designing interactive game logic
+- Building GUI applications with CustomTkinter
+- Managing versions using Git and GitHub
+- Debugging repo, import, and UI issues
+- Improving UX through interface design
 
 ---
 
